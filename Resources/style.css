@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@100;300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+/* ----------------------------------- */
+
+/* BASIC SETUP */
+
+/* ----------------------------------- */
+
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    color: #ffffff;
+}
+
+/*----HEADINGS----*/
+h1{
+font-family: 'Sacramento', cursive;
+font-size: 90px;
+}
+.header-p{
+text-transform: uppercase;
+font-weight: 900;
+font-size: 20px;
+}
+
+
+/* ----------------------------------- */
+
+/* HEADER */
+
+/* ----------------------------------- */
+
+.main-nav{
+text-transform: uppercase;
+font-weight: 700;
+font-size: 15px;
+float: right;
+list-style: none;
+margin-right: 30px;
+
+}
+
+.main-nav li{
+display: inline-block;
+margin: 0 10px;
+color: #ffff;
+}
+
+.main-nav li a{
+color: #ffff;
+text-decoration: none;
+}
+
+
+header {
+height: 800px;
+width: 100%;
+background-image:url(../img/header2.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+overflow: hidden;}
+
+.author-title{
+padding-top: 100px;
+}
+
+.socials{
+margin: 24px 0;
+padding: 0;
+font-size: 30px;
+text-shadow: 0px 1px 2px rgba (0,0,0,8;)
+}
+
+.socials li{
+list-style: none;
+display: inline-block;
+margin: 0 15px;
+padding: 0;
+}
+
+.socials li a {
+color: white;
+}
+
+#about {
+background: #2B2B2B;
+padding-top: 96px;
+padding-bottom: 66px;
+overflow: hidden;
+}
+#about p {
+line-height: 30px;
+color: #7A7A7A;}
+
+#about .profile-pic {
+position: relative;
+width: 120px;
+height: 120px;
+border-radius: 100%;
+float: left;
+padding: 20px;}
+
+#about h2 {
+font: 22px 'Lato';
+font-weight: 700;
+color: #fff;
+margin-bottom: 12px;
+text-decoration: none;}
+
+
+.about-text{
+position: relative;
+padding: 20px 75px 75px 75px;
+margin-left: 60px;
+}
+
+#skills{
+line-height: 30px;
+margin-top: 80px;
+padding: 75px;
+margin-left: 60px;
+color: black;
+}
+
+.heading{
+text-transform: uppercase;
+float: left;
+font-size: 15px;
+
+}
+
+#skills .para{
+float: right;
+margin-left: 60px;
+padding-left: 75px;
+}
+
+table{
+margin-left: 60px;
+padding-left: 75px;
+}
